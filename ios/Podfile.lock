@@ -399,6 +399,10 @@ PODS:
     - GoogleSignIn (~> 4.4)
   - EXImageLoaderInterface (2.0.0):
     - EXCore
+  - EXKeepAwake (2.0.0):
+    - EXCore
+  - EXLinearGradient (2.0.0):
+    - EXCore
   - EXLocalAuthentication (2.0.0):
     - EXConstantsInterface
     - EXCore
@@ -1285,6 +1289,8 @@ DEPENDENCIES:
   - EXGL-CPP (from `../packages/expo-gl-cpp/cpp`)
   - EXGoogleSignIn (from `../packages/expo-google-sign-in/ios`)
   - EXImageLoaderInterface (from `../packages/expo-image-loader-interface/ios`)
+  - EXKeepAwake (from `../packages/expo-keep-awake/ios`)
+  - EXLinearGradient (from `../packages/expo-linear-gradient/ios`)
   - EXLocalAuthentication (from `../packages/expo-local-authentication/ios`)
   - EXLocalization (from `../packages/expo-localization/ios`)
   - EXLocation (from `../packages/expo-location/ios`)
@@ -1739,6 +1745,10 @@ EXTERNAL SOURCES:
     :path: "../packages/expo-google-sign-in/ios"
   EXImageLoaderInterface:
     :path: "../packages/expo-image-loader-interface/ios"
+  EXKeepAwake:
+    :path: "../packages/expo-keep-awake/ios"
+  EXLinearGradient:
+    :path: "../packages/expo-linear-gradient/ios"
   EXLocalAuthentication:
     :path: "../packages/expo-local-authentication/ios"
   EXLocalization:
@@ -1951,6 +1961,8 @@ SPEC CHECKSUMS:
   EXGL-CPP: 46b589a3ed0c59ae2e7f9434897b66cd8dd2e70c
   EXGoogleSignIn: 646a6097f0e6ca5c4812b5dc2fcda1979ad9d333
   EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
+  EXKeepAwake: f8d01da0507d5921135ba63799c98ac4e059ff36
+  EXLinearGradient: b09d4e1478b72b08a39f902a1ec045772e3a59e3
   EXLocalAuthentication: b70696613cb24d726d3c98a1818c22c481a46b01
   EXLocalization: 1243adc132eaad4793dd7e5b497135ad5d803441
   EXLocation: 54f562edcc410be18699a364e80fcabcf97228f0
@@ -2004,6 +2016,6 @@ SPEC CHECKSUMS:
   yogaABI31_0_0: 7978689ddccec43cffd5914889304cf3b7fd7c77
   yogaABI32_0_0: b6e0ba3796cd5e47ccea0454694e605a1cfc817a
 
-PODFILE CHECKSUM: 1760c171d7b857a783d7104d188946dc448cae0f
+PODFILE CHECKSUM: fb2731e5832f355fd98586811e3af418c03baf15
 
 COCOAPODS: 1.5.3

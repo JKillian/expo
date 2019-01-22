@@ -271,6 +271,8 @@ dependencies {
   api 'host.exp.exponent:expo-print:2.0.0'
   api 'host.exp.exponent:expo-sensors:2.0.0'
   api 'host.exp.exponent:expo-sms:2.0.0'
+  api 'host.exp.exponent:expo-linear-gradient:2.0.0'
+  api 'host.exp.exponent:expo-keep-awake:2.0.0'
   api 'host.exp.exponent:expo-background-fetch:1.0.0'
   api 'host.exp.exponent:expo-mail-composer:1.0.0'
   api 'host.exp.exponent:expo-sqlite:1.0.0'

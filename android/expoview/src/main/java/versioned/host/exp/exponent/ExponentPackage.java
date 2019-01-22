@@ -39,7 +39,6 @@ import versioned.host.exp.exponent.modules.api.FacebookModule;
 import versioned.host.exp.exponent.modules.api.ImageManipulatorModule;
 import versioned.host.exp.exponent.modules.api.ImagePickerModule;
 import versioned.host.exp.exponent.modules.api.IntentLauncherModule;
-import versioned.host.exp.exponent.modules.api.KeepAwakeModule;
 import versioned.host.exp.exponent.modules.api.KeyboardModule;
 import versioned.host.exp.exponent.modules.api.PedometerModule;
 import versioned.host.exp.exponent.modules.api.ScreenOrientationModule;
@@ -51,7 +50,6 @@ import versioned.host.exp.exponent.modules.api.URLHandlerModule;
 import versioned.host.exp.exponent.modules.api.UpdatesModule;
 import versioned.host.exp.exponent.modules.api.WebBrowserModule;
 import versioned.host.exp.exponent.modules.api.cognito.RNAWSCognitoModule;
-import versioned.host.exp.exponent.modules.api.components.LinearGradientManager;
 import versioned.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule;
 import versioned.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerPackage;
 import versioned.host.exp.exponent.modules.api.components.lottie.LottiePackage;
@@ -187,7 +185,6 @@ public class ExponentPackage implements ReactPackage {
         nativeModules.add(new FacebookModule(reactContext));
         nativeModules.add(new AmplitudeModule(reactContext, scopedContext));
         nativeModules.add(new RNViewShotModule(reactContext, scopedContext));
-        nativeModules.add(new KeepAwakeModule(reactContext));
         nativeModules.add(new ExponentTestNativeModule(reactContext));
         nativeModules.add(new WebBrowserModule(reactContext));
         nativeModules.add(new NativeAdManager(reactContext));
@@ -228,7 +225,6 @@ public class ExponentPackage implements ReactPackage {
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
     List<ViewManager> viewManagers = new ArrayList<>(Arrays.<ViewManager>asList(
-        new LinearGradientManager(),
         new NativeAdViewManager(),
         new BannerViewManager(),
         new MediaViewManager(),
